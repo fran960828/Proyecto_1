@@ -1,0 +1,42 @@
+@use "../abstracts/abstracts" as *;
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    &__item {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        background-color: white;
+        img {
+            width:72px;
+            height:72px;
+            padding:20px;
+            border-radius: 50%;
+            background-color: #A9D6CB;
+        }
+        h3 {
+            font-family: $font-family;
+            color: $color-title;
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        p {
+            font-family: $font-family;
+            color: $color-text;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+
+
+}

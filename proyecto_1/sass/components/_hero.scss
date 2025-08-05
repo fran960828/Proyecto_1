@@ -1,0 +1,71 @@
+@use "../abstracts/abstracts" as *;
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;;
+    div.main__left {
+        width: 65%;
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left:5%;
+        background-color: $white;
+        .hero{
+            margin-bottom: 50px;
+        }
+        h1 {
+            font-family: $font-family;
+            color:$color-title;
+            font-size:64px;
+            font-weight:700;
+            margin-bottom: 30px;
+            width: 80%;
+        }
+        p {
+            font-family: $font-family;
+            color:$color-text;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            width: 80%;
+        }
+        div.hero__button {
+            display:flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            a {
+                text-decoration: none;
+                display: inline-block;
+                padding:10px 30px;
+                border-radius: 30px;
+                background-color: $color-title;
+                color:white;
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: scale(1.15);
+                } 
+            }
+            & a:last-child {
+                background-color: white;
+                color:$color-title;
+                &::before {
+                    content: url('../../img/play.svg');
+                    width: 24px;
+                    height: 24px;
+                    vertical-align: middle;
+                    margin-right:10px;   
+                }
+            }
+        }
+    }
+    div.main__right {
+        width: 35%;
+        height: 70vh;
+        padding-top:2%;
+        padding-bottom:2%;
+        background-color: #A9D6CB;
+        
+    }
+}

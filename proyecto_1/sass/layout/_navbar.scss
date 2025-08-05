@@ -1,0 +1,67 @@
+@use "../abstracts/abstracts" as *;
+
+.menu {
+    margin-left: 150px;
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0px;
+        margin:0px;
+        gap:50px;
+        li:last-child a::after {
+            content:url('../../img/low-arrow.svg');
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+    }
+    &__item a {
+        display: block;
+        text-decoration:none;
+        color:$color-title;
+
+    }
+    &__item a:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+}
+.login {
+    margin-left:auto;
+    ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+    gap:40px;
+}
+    li a{
+        display: inline-block;
+        text-decoration:none;
+        padding:10px 30px;
+        border-radius: 30px;
+        color:$color-title;
+        background-color: transparent;
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+
+        }
+    }
+    li:last-child a {
+        background-color: $color-title;
+        color: $white;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.15);
+        }
+    } 
+    
+}
+
