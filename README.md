@@ -29,7 +29,6 @@ Este repositorio contiene el desarrollo del **header** de su sitio web oficial, 
 
 ## 🚀 Pasos para usarlo en tu proyecto
 
-1. **Copia** el código HTML del `<header>` desde `index.html`.
-2. **Copia** el archivo CSS compilado.
-3. **Enlaza** el CSS en tu HTML:
+- **Copia** la carpeta dist/ del proyecto y ya podrás usarlo y adaptarlo a tus necesidades.
+
    
