@@ -1,34 +1,49 @@
-Proyecto_1: HEADER SPA AND BEAUTY
+# Glow Queen - Header Component 💄✨
 
-# 🌟 Glow Queen – Header del Sitio Web
+**Autor:** fran960828  
+**Contacto:** franng96@hotmail.com
 
-**Glow Queen** es un proyecto ficticio del sector de belleza y cuidado personal.  
-Este repositorio contiene el desarrollo del **header** de su sitio web oficial, que incluye un menú de navegación interactivo, enlaces a secciones clave, y opciones para iniciar sesión y registrarse.
-
-> 📌 **Nota:** El diseño está optimizado únicamente para **pantallas desktop**.
+Este repositorio contiene el **encabezado de la página web Glow Queen**, un proyecto ficticio de cuidado de la piel y belleza, diseñado para ofrecer una navegación moderna y responsiva en escritorio.
 
 ---
 
-## 📋 Características
+## Tecnologías utilizadas 🛠️
 
-- **Menú de navegación principal** con enlaces a distintas secciones.
-- **Botones** para iniciar sesión y registrarse.
-- Estilos desarrollados en **SCSS** para modularidad y fácil mantenimiento.
-- Estructura **HTML semántica**.
-- Diseño pensado exclusivamente para **resoluciones de escritorio**.
-
----
-
-## 🖥️ Tecnologías utilizadas
-
-- **HTML5** – Estructura y semántica del contenido.
-- **SCSS (Sass)** – Estilos organizados y reutilizables con variables, mixins y anidación.
-- **CSS3** – Salida compilada desde SCSS.
+- **HTML5** – Estructura semántica del encabezado.
+- **CSS3** – Estilos, layout flexbox y diseño responsivo.
+- **Google Fonts** – Tipografía personalizada para la marca.
+- **Iconos SVG** – Para logotipo, menú y botones interactivos.
 
 ---
 
-## 🚀 Pasos para usarlo en tu proyecto
+## Características del encabezado ✨
 
-- **Copia** la carpeta dist/ del proyecto y ya podrás usarlo y adaptarlo a tus necesidades.
+- Logotipo de la marca Glow Queen.
+- Menú de navegación con enlaces principales.
+- Botones de **Acceso**,**Registro** y **Reserva**.
+- Diseño adaptado a pantallas de **1200px** (desktop).
+- Compatible con integración en proyectos web estáticos.
 
-   
+---
+
+## Instalación y uso 🚀
+
+- Clona el repositorio usando git clone.
+- Incluye los archivos html y css en tu proyecto.
+- Personaliza los contenidos adaptados a tu propio proyecto
+- Prueba en tu navegador abriendo el archivo index.html
+
+---
+
+## Contribuciones 🤝
+
+Todas las contribuciones son bienvenidas:
+
+- Abre un issue si detectas errores o quieres proponer mejoras.
+- Envía un pull request para sugerir cambios.
+
+---
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
